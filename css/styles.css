@@ -82,8 +82,26 @@ background-color: var(--primary-text-color-white-theme);
 padding-top: 188px;
 padding-bottom: 188px;
 text-align: center;
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice1.jpg);
+    background-position: center;
+    background-size: cover;
 }
-
+.skill-icon-fon{
+    display: flex;
+        width: 264px;
+        height: 112px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 24px;
+        background-color: #F4F4FD;;
+}
+.skill-icon{
+align-items: center;
+    width: 64px;
+    height: 64px;
+    
+}
 .logo{
     font-family: 'Raleway', sans-serif;
         font-weight: 800;
@@ -261,6 +279,10 @@ border-radius: 0px 0px 4px 4px;
         padding-left: 32px;
         padding-right: 32px;
         border-radius: 4px;
+}
+.nav{
+    display: flex;
+        align-items: center;
 }
 .hero-button:hover, .hero-button:focus{
 background-color: var(--links-active);
