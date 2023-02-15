@@ -441,7 +441,7 @@ height: 56px;
 .customers-item-box:hover,
 .customers-item-box:focus {
     border-color: var(--links-active) !important;
-fill: #31D0AA;
+--color4:var(--links-active);
 }
 .customers-icons:hover,
 .customers-icons:focus {
