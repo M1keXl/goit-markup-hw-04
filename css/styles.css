@@ -75,8 +75,8 @@ margin-right: 76px;
         width: 1158px;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
 }
 .hero{
 background-color: var(--primary-text-color-white-theme);
@@ -102,7 +102,7 @@ background-color: var(--primary-text-color-white-theme);
         height: 112px;
         align-items: center;
         justify-content: center;
-
+border-radius: 4px;
         margin-bottom: 8px;
         background-color: #F4F4FD;;
 }
@@ -183,7 +183,7 @@ margin-left: auto;
 margin-right: auto;
 }
 .section{
-    padding-top: 120px;
+    padding-top: 130px;
     padding-bottom: 120px;
 }
 .advant-list{
@@ -240,6 +240,7 @@ width: 264px;
 }
 .workers-content{
     padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 .team-list-item{
@@ -302,6 +303,9 @@ background-color: var(--links-active);
     color: #F4F4FD;
     margin-bottom: 16px;
     display: block;
+}
+.project-list-item:hover, .project-list-item:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .button-list{
     font-weight: 500;
@@ -378,7 +382,7 @@ row-gap: 48px;
 .team-icon-box{
     display: flex;
         justify-content: center;
-        margin: 8px  16px 32px;
+        margin-top: 8px;
     
 }
 .team-icon-link{
@@ -424,8 +428,8 @@ height: 56px;
     align-items: center;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    width: 170px;
-    height: 92px;
+    width: 180px;
+    height: 88px;
         fill: #afb1b8;
 }
 .customers-item-box:hover,
@@ -443,8 +447,8 @@ margin-right:120px ;
 .footer-container{
     display:flex;
 }
+
 .social-media-title{  
-        font-size: 16px;
         line-height: 1.5;   
         letter-spacing: 0.02em;
         color: var(--primary-text-color-dark-theme);
@@ -467,8 +471,8 @@ margin-right:120px ;
 background: #31D0AA;
 }
 
-.social-media-icon-list:last-child{
-    margin-right: 0px;
+.social-media-icon-list:not(:last-child){
+    margin-right: 16px;
 }
 .social-media-icons{
     width: 24px;
