@@ -453,6 +453,7 @@ margin-right:120px ;
         letter-spacing: 0.02em;
         color: var(--primary-text-color-dark-theme);
         margin-bottom: 16px; 
+        font-weight: 500px;
     }
 .social-media-icon-link{
             width: 40px;
